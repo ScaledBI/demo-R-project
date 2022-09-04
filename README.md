@@ -1,1 +1,1 @@
-# dummyRproject
+# demo-R-project
