@@ -1,11 +1,10 @@
-Package: demo-R-project
+Package: demoRproject
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Scaled Business Intelligence ana Analytics demo R package
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: ScaledBI
+Maintainer: The package maintainer <info@scaledbi.com>
+Description: Scaled Business Intelligence ana Analytics demo R package
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
