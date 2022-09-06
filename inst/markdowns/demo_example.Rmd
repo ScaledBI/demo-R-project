@@ -24,7 +24,21 @@ knitr::opts_chunk$set(out.width="100%", fig.height = 4.5, split=FALSE, fig.align
 
 This is a short RMarkdown document to illustrate the integration between shinyproxy and Rmarkdowns
 
-```{r, plot data}
+```{r, head data}
 library(tidyverse)
 head(mpg)
 ```
+
+
+# Visual
+
+```{r, plot data}
+library(tidyverse)
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy)) + 
+  facet_wrap(~ class, nrow = 2)
+```
+
+# Conclusion
+
+**Great to have ScaledBI** 
